@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("field","",445,464);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",465,491);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",532,561);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",601,659);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",3210,3245);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",3624,3654);
+$z[5][4]['name']="typename";
+$z[6]=Array("field","",3783,3812);
+$z[6][4]['name']="position";
+$z[7]=Array("list","\r\n					<div class=\"post blog-post blog-post-classic col-lg-12 col-md-12 col-sm-12\">\r\n						<div class=\"blog-post-list\">\r\n							<div class=\"blog-post-meta\">\r\n								<span class=\"post-date\">\r\n								<span class=\"post-day\">[field:pubdate function=MyDate('d',@me)'/]</span><br/>\r\n								[field:pubdate function=MyDate('Y-m',@me)'/]</span>\r\n								<span class=\"post-format\">\r\n								<span class=\"document-icon\"></span>\r\n								</span>\r\n								\r\n							</div>\r\n							<div class=\"blog-post-content\">\r\n								<!-- Post Image -->\r\n								<div class=\"post-thumbnail\">\r\n									<img src=\"[field:picname/]\" alt=\"[field:fulltitle/]\" height=\"200\" style=\"height:200px\"/>\r\n									<div class=\"post-hover\">\r\n										<a class=\"link-icon\" href=\"[field:arcurl /]\"></a>\r\n										<a class=\"search-icon prettyPhoto\" href=\"[field:picname/]\"></a>\r\n									</div>\r\n								</div>\r\n								<!-- /Post Image -->\r\n								<!-- Post Content -->\r\n								<div class=\"post-content\">\r\n									\r\n									<h4><a href=\"[field:arcurl /]\" >[field:title/]</a></h4>\r\n									[field:infos /] <a class=\"read-more big\" title=\"Single Blog Post\" href=\"[field:arcurl /]\">查看更多</a>\r\n								</div>\r\n								<!-- /Post Content -->\r\n							</div>\r\n						</div>\r\n					</div>\r\n					<!-- /Post Item -->\r\n					 ",4030,5380);
+$z[7][4]['pagesize']="4";
+$z[7][4]['titlelen']="70";
+$z[7][4]['infolen']="180";
+$z[8]=Array("pagelist","",5566,5637);
+$z[8][4]['listitem']="info,index,end,pre,next,pageno";
+$z[8][4]['listsize']="5";
+$z[9]=Array("channel","\r\n      <li class=\"cat-item cat-item-2\"><a href='[field:typeurl/]'>[field:typename/]</a></li>\r\n      ",5880,6021);
+$z[9][4]['type']="son";
+$z[10]=Array("arclist","\r\n					<li>\r\n					<a href=\"[field:arcurl /]\"><img src=\"[field:picname/]\" alt=\"[field:fulltitle/]\" height=\"60\" style=\"height:60px;\"/>\r\n					<div class=\"cloud\">\r\n						[field:title/]\r\n						<div class=\"helper\">\r\n						</div>\r\n					</div>\r\n					</a>\r\n					</li>\r\n                    ",6170,6531);
+$z[10][4]['titlelen']="20";
+$z[10][4]['row']="6";
+$z[10][4]['typeid']="1,4,5,6";
+$z[10][4]['infolen']="40";
+$z[11]=Array("global","",6740,6766);
+$z[11][4]['name']="moke_adress";
+$z[12]=Array("global","",6843,6863);
+$z[12][4]['name']="phone";
+$z[13]=Array("global","",6950,6970);
+$z[13][4]['name']="email";
+$z[14]=Array("global","",6972,6992);
+$z[14][4]['name']="email";
+$z[15]=Array("include","",7488,7525);
+$z[15][4]['filename']="footer.htm";
+
+?>
